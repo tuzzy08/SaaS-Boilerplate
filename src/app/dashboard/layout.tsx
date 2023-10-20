@@ -1,4 +1,3 @@
-import { ClerkProvider } from '@clerk/nextjs';
 import { UserButton } from '@clerk/nextjs';
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
@@ -16,15 +15,15 @@ export default function DashboardLayout({
 }) {
 	return (
 		// <ClerkProvider>
-		<html lang='en'>
-			<body className={inter.className}>
-				{/* Header/Navbar */}
-				<div className='navbar bg-base-100'>
-					<div className='flex-1'>
-						<a className='btn btn-ghost normal-case text-xl'>chatleafAI</a>
-					</div>
-					<div className='flex-none'>
-						{/* <div className='dropdown dropdown-end'>
+
+		<>
+			{/* Header/Navbar */}
+			<div className='navbar bg-base-100'>
+				<div className='flex-1'>
+					<a className='btn btn-ghost normal-case text-xl'>chatleafAI</a>
+				</div>
+				<div className='flex-none'>
+					{/* <div className='dropdown dropdown-end'>
 								<label tabIndex={0} className='btn btn-ghost btn-circle'>
 									<div className='indicator'>
 										<svg
@@ -59,14 +58,12 @@ export default function DashboardLayout({
 									</div>
 								</div>
 							</div> */}
-						<div className='dropdown dropdown-end'>
-							<UserButton afterSignOutUrl='/' />
-						</div>
+					<div className='dropdown dropdown-end'>
+						<UserButton afterSignOutUrl='/' />
 					</div>
 				</div>
-				{children}
-			</body>
-		</html>
-		// </ClerkProvider>
+			</div>
+			{children}
+		</>
 	);
 }
