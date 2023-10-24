@@ -2,11 +2,11 @@
 
 ## Features
 
-**- NextJS**
-**- Tailwind CSS**
-**- DaisyUI**
-**- tRPC**
-**- Authentication -> Clerk 🔐**
-**- ORM -> Prisma**
-**- Database -> Supabase Postgres**
-**- Billing -> LemonSqueezy** 💰
+- **NextJS**
+- **Tailwind CSS**
+- **DaisyUI**
+- **tRPC**
+- **Authentication -> Clerk 🔐**
+- **ORM -> Prisma**
+- **Database -> Supabase Postgres**
+- **Billing -> LemonSqueezy** 💰
