@@ -8,6 +8,9 @@ dependencies:
   '@clerk/nextjs':
     specifier: ^4.25.4
     version: 4.25.4(next@13.5.4)(react-dom@18.2.0)(react@18.2.0)
+  '@lemonsqueezy/lemonsqueezy.js':
+    specifier: ^1.2.1
+    version: 1.2.1
   '@prisma/client':
     specifier: 5.4.2
     version: 5.4.2(prisma@5.4.2)
@@ -266,6 +269,10 @@ packages:
       '@jridgewell/resolve-uri': 3.1.1
       '@jridgewell/sourcemap-codec': 1.4.15
     dev: true
+
+  /@lemonsqueezy/lemonsqueezy.js@1.2.1:
+    resolution: {integrity: sha512-W/lsaYZTjlRFAbdH1W8539+Ysfv2SKLl/8eK+zC9+GHdk/mgeMsqFZDRG8057Lsd1Mi9n96QuOC4kgeFUsdd6w==}
+    dev: false
 
   /@next/env@13.5.4:
     resolution: {integrity: sha512-LGegJkMvRNw90WWphGJ3RMHMVplYcOfRWf2Be3td3sUa+1AaxmsYyANsA+znrGCBjXJNi4XAQlSoEfUxs/4kIQ==}
